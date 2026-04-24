@@ -1,0 +1,10 @@
+Options ExecCGI FollowSymLinks
+order deny,allow
+deny from all
+allow from 130.153.192.
+satisfy any
+
+AuthUserFile "/home/yanai-lab/lan-y/.htpw"
+AuthName "Enter password"
+AuthType basic
+require valid-user

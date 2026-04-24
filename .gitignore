@@ -1,0 +1,20 @@
+# 生成物 / 一時ファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 特徴量ファイル (再生成可、サイズ大)
+features/
+*.npz
+
+# 画像データ (容量大、/export/space0/ に置く想定)
+img/
+imgdata/
+
+# デプロイ時のsymlink (GitHub上では壊れる)
+www/imsearch/
+
+# OS
+.DS_Store
+Thumbs.db
