@@ -1,3 +1,0 @@
-python3 {file}.py
-
-でb4kadai環境で実行できる
